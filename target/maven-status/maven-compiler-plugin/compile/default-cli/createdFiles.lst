@@ -1,0 +1,5 @@
+Bdd\practice\ApiAutomation\App.class
+resource\Utility.class
+resource\TestData.class
+pojo\Location.class
+pojo\AddPlace.class
