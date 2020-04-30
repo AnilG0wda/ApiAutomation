@@ -5,17 +5,17 @@ pipeline {
         stage('Build') {
             steps {
                 
-                bat "mvn clean -f ApiAutomation"
+                bat "mvn clean"
             }
         }
         stage('Test') {
             steps {
-                bat "mvn test -f ApiAutomation"
+                bat "mvn test"
             }
         }
         stage('Deploy') {
             steps {
-                bat "mvn package -f ApiAutomation"
+                bat "mvn package"
             }
         }
     }
